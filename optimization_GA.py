@@ -97,7 +97,7 @@ def main():
     crossover_rate = 0.2
     k = 3
     
-    run_mode = "train"
+    run_mode = "test"
     
     if run_mode == "train": #training phase
         population = initialize_population(population_size=population_size, n_vars=n_vars)
